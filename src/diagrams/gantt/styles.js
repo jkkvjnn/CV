@@ -1,4 +1,4 @@
 .taskText {
-  fill: white;
+  fill: red;
   text-anchor: middle;
 }
