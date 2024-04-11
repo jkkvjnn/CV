@@ -1,6 +1,8 @@
 ```mermaid
 gantt
-    title Polar Electro Oy
+    %%{init {'theme': 'dark'}}%%
+    %% tickInterval 12month
+    title Polar Electro
     dateFormat  MM/YYYY
     axisFormat  %m/%Y
     section TA
@@ -8,6 +10,7 @@ gantt
     section DevOps
     Jenkins & AWS CloudFormation templates :a, 01/2017, 11/2017
     section Developing
-    Javascript coding :a, 11/2017, 04/2018
+    Javascript coding :crit, a, 11/2017, 04/2018
     section Security
-    Burp Suite & OWASP ZAP & Amazon Inspector :a, 04/2018, 12/2019
+    Burp Suite & OWASP ZAP & Amazon Inspector :active, a, 04/2018, 01/2020
+```
